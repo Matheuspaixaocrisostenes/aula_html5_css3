@@ -1,0 +1,28 @@
+body{
+    background: rgb(231, 179, 179);
+    margin-left: 50px;
+}
+
+h1 , h2{
+    font-family: fantasy;
+    font-size: 40px;
+}
+
+p{
+    font-size: 15pt;
+    color: rgb(82, 80, 80);
+}
+
+img.padrao{
+    width: 500px;
+    margin-bottom: 30px;
+}
+
+img.padrao:hover {
+    width: 1000px;
+    transition: .3s;
+}
+
+footer{
+    margin-bottom: 30px;
+}
