@@ -1,11 +1,56 @@
 body{
-    background: rgb(231, 179, 179);
-    margin-left: 50px;
+    background: gray;
 }
 
-h1 , h2{
+#principal{
+    background-color: white;
+    text-align: center;
+    margin-left: 240px;
+    margin-right: 240px;
+    border-radius: 120px;
+}
+
+h1{
     font-family: fantasy;
     font-size: 40px;
+}
+
+h2{
+    font-family: fantasy;
+    font-size: 35px;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline;
+    margin-left: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(173, 169, 169);
+}
+
+.n{
+    color: black;
+}
+
+.n:hover{
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
+    background-color: gray;
+}
+
+.c{
+    color: black;
 }
 
 p{
@@ -19,10 +64,16 @@ img.padrao{
 }
 
 img.padrao:hover {
-    width: 1000px;
-    transition: .3s;
+    width: 900px;
+    transition: .9s;
 }
 
-footer{
+footer p{
+    color: white;
     margin-bottom: 30px;
+    text-align: center;
+}
+
+footer a:hover{
+    color: rgb(155, 153, 153);
 }
